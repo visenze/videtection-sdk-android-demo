@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Visenze detection demo</string>
+
+    <!-- config-->
+    <string name="videtection_token">YOUR_VIMOBILE_ACTIVATION_TOKEN</string>
+    <string name="app_key">YOUR_VISEARCH_APP_KEY</string>
+    <string name="endpoint">https://visearch.visenze.com</string>
+
+    <!-- action bar-->
+    <string name="cd_settings_button">Settings</string>
+    <string name="cd_close_button">Back</string>
+    <string name="cd_flash_button">Toggle camera flash</string>
+    <string name="cd_photo_library_button">Upload image</string>
+
+    <!-- Strings for product search settings. -->
+    <string name="pref_key_confirmation_time_in_auto_search" translatable="false">ctias</string>
+
+    <string name="mode_live">Live</string>
+    <string name="mode_camera">Camera</string>
+    <string name="videtection">ViDetection</string>
+    <string name="permission_required">Permission required</string>
+    <string name="go_to_setting">App requires permission to proceed, go to setting to enable permission</string>
+    <string name="is_permenant_disabled_permission">permission_permanent_denied</string>
+</resources>
