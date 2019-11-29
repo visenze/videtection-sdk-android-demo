@@ -115,7 +115,7 @@ public class SplashActivity extends AppCompatActivity {
      * initialize visenze detection SDK
      */
     private void loadDetectionSDK() {
-        String token = getApplication().getResources().getString(R.string.videtection_token);
+        String token = getApplication().getResources().getString(R.string.vimobile_token);
         ViMobileSDKManager.getInstance()
                 .initWithToken(
                         getApplicationContext(), token,

@@ -3,7 +3,7 @@
     <string name="app_name">Visenze detection demo</string>
 
     <!-- config-->
-    <string name="videtection_token">YOUR_VIMOBILE_ACTIVATION_TOKEN</string>
+    <string name="vimobile_token">YOUR_VIMOBILE_ACTIVATION_TOKEN</string>
     <string name="app_key">YOUR_VISEARCH_APP_KEY</string>
     <string name="endpoint">https://visearch.visenze.com</string>
 

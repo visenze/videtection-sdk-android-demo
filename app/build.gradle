@@ -8,7 +8,7 @@ android {
     flavorDimensions "default"
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.visenze.detection.demo"
+        applicationId "com.visenze.vimobile.demo"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode versionMajor * 10000 + versionMinor * 100 + versionPatch
