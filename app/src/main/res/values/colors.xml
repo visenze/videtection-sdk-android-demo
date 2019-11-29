@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#ebf1ff</color>
+    <color name="darkBlue">#283d78</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_50_tran">#64FFFFFF</color>
+    <color name="boarder_color">#ececec</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="lighter_grey">#DDDDDD</color>
+    <color name="gray_trans_40">#64999999</color>
+    <color name="object_circle_color">#30ffffff</color>
+    <color name="dark">#9A000000</color>
+    <color name="text_selected_color">#283d78</color>
+    <color name="text_default_color">#4a4a4a</color>
+    <color name="text_disabled_color">#80ffffff</color>
+    <color name="text_mode">#CCFFFFFF</color>
+    <color name="reticle_ripple">#9AFFFFFF</color>
+    <color name="bounding_box_gradient_start">#00FFFFFF</color>
+    <color name="bounding_box_gradient_end">#99ffffff</color>
+    <color name="object_detected_bg_gradient_start">#00000000</color>
+    <color name="object_detected_bg_gradient_end">#66000000</color>
+    <color name="object_confirmed_bg_gradient_start">#40000000</color>
+    <color name="object_confirmed_bg_gradient_end">#A0000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="gray_trans_box">#aa111111</color>
+    <color name="scan_box_end_color">#99ffffff</color>
+</resources>

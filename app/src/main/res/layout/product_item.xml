@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+  <ImageView
+      android:id="@+id/product_image"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:contentDescription="@null"
+      app:layout_constraintDimensionRatio="1:1"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/product_price"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/product_item_image_row_space"
+      android:fontFamily="@font/lato_semibold"
+      android:maxLines="1"
+      android:textColor="@color/text_selected_color"
+      android:textSize="@dimen/product_item_price"
+      app:layout_constraintStart_toStartOf="@+id/product_image"
+      app:layout_constraintTop_toBottomOf="@+id/product_image" />
+
+  <TextView
+      android:id="@+id/product_title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/product_item_image_row_space"
+      android:fontFamily="@font/lato_regular"
+      android:maxLines="2"
+      android:textColor="@color/text_default_color"
+      android:textSize="@dimen/product_item_title_size"
+      app:layout_constraintStart_toStartOf="@+id/product_image"
+      app:layout_constraintTop_toBottomOf="@+id/product_price" />
+
+  <TextView
+      android:id="@+id/product_subtitle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/product_item_text_row_space"
+      android:fontFamily="@font/lato_regular"
+      android:maxLines="1"
+      android:textColor="@color/text_selected_color"
+      android:textSize="@dimen/product_item_subtitle_size"
+      app:layout_constraintStart_toStartOf="@+id/product_title"
+      app:layout_constraintTop_toBottomOf="@+id/product_title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

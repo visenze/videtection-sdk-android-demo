@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <include
+      layout="@layout/top_action_bar_in_static_image"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="top"/>
+
+  <FrameLayout
+      android:id="@+id/view_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="@dimen/top_action_bar_height"
+      android:background="@color/transparent">
+
+      <com.visenze.vimobile.demo.productsearch.view.EditPhotoView
+          xmlns:crop="http://schemas.android.com/apk/res-auto"
+          android:id="@+id/edit_photo_view"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/black"
+          crop:crop_line_width="1dp"
+          crop:crop_corner_color="@color/white"
+          crop:crop_line_color="@color/white"
+          crop:crop_dot_color="@color/white"
+          crop:crop_shadow_color="@color/gray_trans_40">
+      </com.visenze.vimobile.demo.productsearch.view.EditPhotoView>
+
+  </FrameLayout>
+
+  <include
+      android:id="@+id/bottom_sheet"
+      layout="@layout/product_bottom_sheet"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:behavior_hideable="true"
+      app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
